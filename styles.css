@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    box-sizing: border-box;
+}
+
+.brand-logo{
+    display: none;
+}
+
+.wrapper
+{
+    width: 100vw;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+button{
+    margin-top: 80px;
+    padding: 10px 25px 10px 25px;
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* HEADER */
+header{
+    background-color: #0060AA;
+    height: 100px;
+    width: 100%;
+}
+
+header h1
+{
+    float: left;
+    margin: 32px 0 0 0;
+    font-size: 40px;
+    color: white;
+}
+header h1 a
+{
+    text-decoration: none;
+    color: white;
+}
+
+header nav
+{
+    float: right;
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+header nav ul li
+{
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: bold;
+    padding: 0 20px;
+}
+
+header nav ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+/* HOME */
+#home{
+    height: 700px;
+    background-image: url(images/StockCake-Présentoir\ de\ montre-bracelet\ élégant_1724159194.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#home h1{
+    padding-top: 180px;
+    font-size: 60px;
+    color: white;
+}
+
+#home p{
+    color: white;
+}
+
+/* ITEMS*/
+
+.items{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.items .brand{
+    height: 80px;
+    width: 100px;
+    margin-top: 30px;
+    padding-right: 30px;  
+}
+
+.items .brand img{
+    height: 80px;
+    width: 100px; 
+}
+
+.tr{
+    border-bottom: 2px solid gray;
+    width: 100%;
+}
+
+/* PRODUCT */
+#product{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.product{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.prod1{
+    background-image: url(images/StockCake-Montre\ luxueuse\ en\ diamant_1724157107.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 320px;
+    color: white;
+    font-size: 12px;
+    padding: 45px 0 0 10px;
+}
+
+.prod1 p{
+    padding-top: 50px;
+}
+
+.prod1 button{
+    margin-top: 120px;
+    font-size: 15px;
+}
+
+.prod2{
+    background-image: url(images/StockCake-Elegant\ Luxury\ Watch_1724196314.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 320px;
+    color: white;
+    font-size: 12px;
+    padding: 45px 0 0 10px;
+}
+
+.prod2 p{
+    padding-top: 50px;
+}
+
+.prod2 button{
+    margin-top: 120px;
+    font-size: 15px;
+}
+
+.prod3{
+    background-image: url(images/StockCake-Elegant\ Mechanical\ Watch_1724196657.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 320px;
+    color: white;
+    font-size: 12px;
+    padding: 45px 0 0 10px;
+}
+
+.prod3 p{
+    padding-top: 50px;
+}
+
+.prod3 button{
+    margin-top: 120px;
+    font-size: 15px;
+}
+
+.prod4{
+    background-image: url(images/StockCake-Elegant\ Vintage\ Watch_1724197548.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 320px;
+    color: white;
+    font-size: 12px;
+    padding: 45px 0 0 10px;
+}
+
+.prod4 p{
+    padding-top: 50px;
+}
+
+.prod4 button{
+    margin-top: 120px;
+    font-size: 15px;
+}
+
+/* FOOTER */
+footer{
+    background-color: #0060AA;
+    height: 300px;
+    width: 100%;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 40px;
+}
+
+.cont1{
+    color: white;
+}
+
+.cont1 p{
+    margin-top: 10px;
+}
+
+.cont1 ul li{
+    display: inline;
+    padding: 0px 8px 0 0;
+    
+}
+
+.cont1 ul li a{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50px;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    margin-top: 30px;
+}
+
+.cont1 ul li i{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto auto auto auto;
+}
+
+.cont2{
+    color: white;
+}
+
+.cont2 p{
+    margin-top: 15px;
+}
+
+.cont3{
+    color: white;
+}
+
+.cont3 input[type="email"]{
+    background-color: whitesmoke;
+    width: 300px;
+    padding: 7px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+input[type="submit"]{
+    background-color: #FF0030;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    font-weight: bold;
+    border-radius: 7px;
+    margin-top: 25px;
+
+}
+
+.copywrite{
+    margin-top: 70px;
+    text-align: center;
+    color: white;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 768px){
+    header nav ul li{
+        margin-right: 12px;
+        padding: 0;
+    }
+
+    .prod1, .prod2, .prod3, .prod4{
+        width: 100%;
+        margin-top: 20px;
+
+    }
+    .product{
+        padding: 20px;
+    }
+    .items .brand{
+        width: 25% !important;
+    }
+
+    .brand-text{
+        display: none;
+    }
+
+    .brand-logo{
+        display: inline-block !important;
+    }
+
+    footer{
+        height: 630px;
+    }
+
+    .cont1, .cont2, .cont3, .copywrite{
+        width: 100%;
+    }
+
+    .cont2, .cont3{
+        padding-top: 30px;
+    }
+
+    .copywrite{
+        text-align: center;
+    }
+
+}
+
